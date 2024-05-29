@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 375px;
+}
+.hero-img{
+    width: 50%;
+}
+
+.hero-text{
+    width: 40%;
+}
+.hero-button{
+    padding: 15px 50px 15px 50px;
+    background-color: #61A734;
+    border: none;
+    color: white;
+}
+.hero-text h1{
+    color: #E8582B; 
+    font-family: great vibes;
+    font-size: 100px;
+}
+.hero-text h2{
+    margin-left: 130px;
+    margin-bottom: -30px;
+    color: #61A734;
+    font-weight: 700;
+}
+.hero-text p{
+    font-size: 22px;
+}
+
+@media screen and (max-width:375px){
+    .hero-text{
+        width: 100%;
+    }
+    .hero-button{
+        padding: 15px 50px 15px 50px;
+        background-color: #61A734;
+        border: none;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .hero-text h1{
+        color: #E8582B; 
+        font-family: great vibes;
+        font-size: 100px;
+    }
+    .hero-text h2{
+        margin-left: 130px;
+        margin-bottom: -30px;
+        color: #61A734;
+        font-weight: 700;
+    }
+    .hero-text p{
+        font-size: 15px;
+    }
+    .footer p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:768px){
+    .hero-text{
+        width: 100%;
+    }
+    .hero-button{
+        padding: 15px 50px 15px 50px;
+        background-color: #61A734;
+        border: none;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .hero-text h1{
+        color: #E8582B; 
+        font-family: great vibes;
+        font-size: 100px;
+    }
+    .hero-text h2{
+        margin-left: 130px;
+        margin-bottom: -30px;
+        color: #61A734;
+        font-weight: 700;
+    }
+    .hero-text p{
+        font-size: 15px;
+    }
+    .footer p{
+        font-size: 14px;
+    }
+    .footer{
+        padding-left: 180px;
+    }
+}

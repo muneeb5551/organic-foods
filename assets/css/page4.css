@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 375px;
+}
+.happy-section{
+    width: 50%;
+}
+.happy-section h1{
+    color: #E8582B; 
+    font-family: great vibes;
+    font-size: 70px;
+    font-weight: 550;
+}
+.happy-section h4{
+    margin-left: 150px;
+    margin-bottom: 0px;
+    color: #61A734;
+    font-weight: 600;
+}
+.happy-button{
+    padding: 15px 50px 15px 50px;
+    background-color: #E8582B;
+    border: none;
+    color: white;
+}
+@media screen and (max-width:375px){
+    .happy-section{
+        width: 100% !important;
+    }
+    .happy-section h1{
+        color: #E8582B; 
+        font-family: great vibes;
+        font-size: 60px;
+        font-weight: 550;
+    }
+    .happy-section h4{
+        margin-left: 50px;
+        margin-bottom: 0px;
+        color: #61A734;
+        font-weight: 400;
+    }
+    .happy-button{
+        padding: 15px 20px 15px 20px;
+        background-color: #E8582B;
+        border: none;
+        color: white;
+    }
+    .happy-section p{
+        font-size: 14px;
+    }
+    .footer p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:768px){
+    .happy-section{
+        width: 100% !important;
+    }
+    .happy-section h1{
+        color: #E8582B; 
+        font-family: great vibes;
+        font-size: 60px;
+        font-weight: 550;
+    }
+    .happy-section h4{
+        margin-left: 50px;
+        margin-bottom: 0px;
+        color: #61A734;
+        font-weight: 400;
+    }
+    .happy-button{
+        padding: 15px 20px 15px 20px;
+        background-color: #E8582B;
+        border: none;
+        color: white;
+    }
+    .happy-section p{
+        font-size: 14px;
+    }
+    .footer p{
+        font-size: 14px;
+    }
+    .footer{
+        padding-left: 180px;
+    }
+}

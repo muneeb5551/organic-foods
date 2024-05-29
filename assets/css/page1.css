@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 375px;
+}
+.items-section{
+    width: 33%;
+    padding: 30px 50px 30px 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.items-section h4{
+font-weight: 300;
+margin: 20px 0px 20px 0px;
+}
+.items-section p{
+    font-weight: 400;
+    font-size: 18px;
+    }
+.items-img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.items-button{
+    border: none;
+    background-color: white;
+    margin-top: 20px;
+}
+.items-button h5{
+    font-weight: 400;
+}
+.free-pik a{
+    font-weight: 700;
+}
+
+
+@media screen and (max-width:375px){
+    .items-section{
+        width: 100%;
+        padding: 30px 50px 30px 50px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .items-section h4{
+    font-weight: 300;
+    margin: 20px 0px 20px 0px;
+    }
+    .items-section p{
+        font-weight: 400;
+        font-size: 18px;
+        }
+    .items-img{
+        width: 200px;
+        height: 200px;
+        
+    }
+    
+    .items-button{
+        border: none;
+        background-color: white;
+        margin-top: 20px;
+    }
+    .items-button h5{
+        font-weight: 400;
+    }
+    .free-pik a{
+        font-weight: 700;
+    } 
+    .footer p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:768px){
+    .items-section{
+        width: 100%;
+        padding: 30px 50px 30px 50px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .items-section h4{
+    font-weight: 300;
+    margin: 20px 0px 20px 0px;
+    }
+    .items-section p{
+        font-weight: 400;
+        font-size: 18px;
+        }
+    .items-img{
+        width: 200px;
+        height: 200px;
+        
+    }
+    
+    .items-button{
+        border: none;
+        background-color: white;
+        margin-top: 20px;
+    }
+    .items-button h5{
+        font-weight: 400;
+    }
+    .free-pik a{
+        font-weight: 700;
+    } 
+    .footer p{
+        font-size: 14px;
+    }
+    .footer{
+        padding-left: 180px;
+    }
+}
