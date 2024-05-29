@@ -9,6 +9,9 @@ body{
 .happy-section{
     width: 50%;
 }
+.happy-section-text{
+    width: 50%;
+}
 .happy-section h1{
     color: #E8582B; 
     font-family: great vibes;
@@ -30,6 +33,10 @@ body{
 @media screen and (max-width:375px){
     .happy-section{
         width: 100% !important;
+    }
+    .happy-section-text{
+        width: 100%;
+        padding: 20px;
     }
     .happy-section h1{
         color: #E8582B; 
@@ -54,12 +61,17 @@ body{
     }
     .footer p{
         font-size: 14px;
+        text-align: center;
     }
 }
 
 @media screen and (min-width:376px) and (max-width:768px){
     .happy-section{
         width: 100% !important;
+    }
+    .happy-section-text{
+        width: 100%;
+        padding: 20px;
     }
     .happy-section h1{
         color: #E8582B; 
@@ -86,6 +98,6 @@ body{
         font-size: 14px;
     }
     .footer{
-        padding-left: 180px;
+        text-align: center;
     }
 }

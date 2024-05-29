@@ -60,6 +60,11 @@ body{
         color: white;
         margin-bottom: 20px;
     }
+    .footer{
+        padding: 30px;
+font-size: 14px;
+    }
+
 }
 
 @media screen and (min-width:376px) and (max-width:768px){
@@ -90,7 +95,8 @@ body{
         margin-bottom: 20px;
     }
     .footer{
-        padding-left: 180px;
+        padding: 30px;
+
     }
 }
 

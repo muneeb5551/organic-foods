@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    min-width: 375px;
+}
 .nav-logo{
 width: 20%;
 }
@@ -143,7 +146,10 @@ margin: 20px 0px 20px 0px;
 }
 
 .items-button{
-    border: none;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     background-color: white;
     margin-top: 20px;
 }
@@ -233,6 +239,14 @@ width: 50%;
     .items-section{
         width: 100%;
     }
+    .items-button{
+        border-bottom: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: white;
+        margin-top: 20px;
+    }
 .food-section{
     width: 100%;
 }
@@ -314,6 +328,14 @@ width: 50%;
     }
     .items-section{
         width: 100%;
+    }
+    .items-button{
+        border-bottom: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: white;
+        margin-top: 20px;
     }
 .food-section{
     width: 100%;
