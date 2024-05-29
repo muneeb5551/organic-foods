@@ -70,7 +70,10 @@ margin: 20px 0px 20px 0px;
     }
     
     .items-button{
-        border: none;
+        border-bottom: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
         background-color: white;
         margin-top: 20px;
     }
@@ -111,7 +114,10 @@ margin: 20px 0px 20px 0px;
     }
     
     .items-button{
-        border: none;
+        border-bottom: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
         background-color: white;
         margin-top: 20px;
     }
